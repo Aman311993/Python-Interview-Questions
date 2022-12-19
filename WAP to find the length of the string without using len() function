@@ -1,0 +1,9 @@
+--------------- Python  Interview Questions---------------
+
+Question : WAP to find the length of the string without using len() function
+Solution : 
+s=input("Enter the string")
+counter=0
+for i in s :
+  counter+=1
+print('length of string is',counter)
