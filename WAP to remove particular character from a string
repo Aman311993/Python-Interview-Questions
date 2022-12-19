@@ -1,0 +1,11 @@
+--------------- Python  Interview Questions---------------
+
+Question : WAP to remove particular character from a string ?
+Solution : 
+s=input("Enter the string")
+term=input("What would you like to remove")
+result=' '
+for i in s:
+  if i !=term:
+    result=result+i
+print(result)
