@@ -1,0 +1,7 @@
+--------------- Python  Interview Questions---------------
+
+Question : WAP to extract username from the given emailId ?
+Solution : 
+s=input("Enter the Email")
+position=s.index('@')
+print(s[0:position])
