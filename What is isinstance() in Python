@@ -1,0 +1,39 @@
+Question : What is isinstance() in Python?
+Solution : 
+
+The isinstance() function checks if the object (first argument) is an instance or subclass of classinfo class (second argument).
+
+numbers = [1, 2, 3, 4, 2, 5]
+
+# check if numbers is instance of list
+result = isinstance(numbers, list)
+print(result)
+
+
+isinstance() Syntax:
+isinstance(object, classinfo)
+isinatance takes two parameters :
+object - object to be checked
+classinfo - class, type, or tuple of classes and types
+
+
+isinstance Return Value:
+True if the object is an instance or subclass of a class or any element of the tuple
+False otherwise
+
+If classinfo is not a type or tuple of types, a TypeError exception is raised.
+
+numbers=[1,2,3,4,5]
+data1=isinstance(numbers,list)
+print(data1)
+
+Output : True
+
+
+data2=isinstance(numbers,dict)
+print(data2)
+False
+
+data3=isinstance(numbers,tuple)
+print(data3)
+False
