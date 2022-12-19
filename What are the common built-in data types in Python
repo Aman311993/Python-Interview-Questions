@@ -1,0 +1,20 @@
+Question : What are the common built-in data types in Python?
+Solution : 
+There are several built-in data types in Python. Although, Python doesn't require data types to be defined explicitly during variable declarations type errors are likely to occur if the knowledge of data types and their compatibility with each other are neglected.
+
+Python provides type() and isinstance() functions to check the type of these variables. These data types can be grouped into the following categories-
+
+None Type:
+None : Represents the NULL values in Python.
+
+Numeric Types:
+int : Stores integer literals including hex, octal and binary numbers as integers
+float :Stores literals containing decimal values and/or exponent signs as floating-point numbers
+complex :Stores complex numbers in the form (A + Bj) and has attributes: real and imag
+bool : Stores boolean value (True or False).
+
+Sequence Types:
+list : Mutable sequence used to store collection of items.
+tuple: Immutable sequence used to store collection of items.
+range : Represents an immutable sequence of numbers generated during execution.
+str : Immutable sequence of Unicode code points to store textual data.
